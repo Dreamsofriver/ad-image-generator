@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bash:*)",
+      "Bash(cat:*)",
+      "Bash(chmod:*)",
+      "Bash(./run_20_generations.sh:*)",
+      "Bash(sips:*)",
+      "Bash(sips -g all \"/Users/qiangjohn/terry-photos-v2.0.2/.claude/skills/ad-image-generator/assets/example/高质感/高质感2.png\")",
+      "Read(//tmp/**)",
+      "Bash(python3:*)",
+      "Bash(/Users/qiangjohn/terry-photos-v2.0.2/venv/bin/python3 -c \"import google.genai; print(''OK'')\")",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

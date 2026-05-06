@@ -1,0 +1,14 @@
+# API key config - contains real credentials
+google_ai_config_gemini.json
+
+# Generated output
+generated_ads/
+test_output/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store

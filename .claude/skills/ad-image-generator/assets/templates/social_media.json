@@ -1,0 +1,27 @@
+{
+  "name": "social_media",
+  "description": "社交媒体广告模板",
+  "layout": {
+    "image": {"height": 1200, "elements": ["main_image", "overlay_text"]},
+    "content": {"height": 400, "elements": ["headline", "description", "hashtags"]},
+    "action": {"height": 320, "elements": ["cta_button", "social_icons"]}
+  },
+  "styles": {
+    "font_family": "Helvetica, Arial, sans-serif",
+    "primary_color": "#4267B2",
+    "secondary_color": "#8B9DC3",
+    "background_color": "#F0F2F5",
+    "text_color": "#1D2129"
+  },
+  "platform_specific": {
+    "instagram": {"aspect_ratio": "4:5", "hashtags": true},
+    "facebook": {"aspect_ratio": "1.91:1", "cta_emphasis": true},
+    "twitter": {"aspect_ratio": "16:9", "text_focus": true}
+  },
+  "guidelines": [
+    "使用高视觉冲击力的图片",
+    "文案简短有力",
+    "包含相关话题标签",
+    "添加明确的行动号召"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m pyright:*)",
+      "Bash(python:*)",
+      "Bash(python3 -m mypy:*)",
+      "Bash(python3:*)",
+      "Bash(mkdir:*)",
+      "WebSearch",
+      "Bash(pip3 install:*)",
+      "Bash(source:*)",
+      "Bash(pip install:*)",
+      "Bash(chmod:*)",
+      "Bash(pip3 list:*)",
+      "Bash(find:*)",
+      "Bash(pkill:*)",
+      "Read(//tmp/**)",
+      "Bash(xargs:*)",
+      "Bash(do)",
+      "Bash(echo:*)",
+      "Bash(done)",
+      "Bash(for:*)",
+      "Bash(grep:*)",
+      "Bash(./batch_generate_ads.sh:*)",
+      "Bash(./batch_generate_standard_ads.sh:*)",
+      "Bash(./batch_generate_dark_ads.sh:*)",
+      "Bash(if [ -f \"$file\" ])",
+      "Bash(then)",
+      "Bash(fi:*)",
+      "Bash(./batch_generate_light_ads.sh:*)",
+      "Bash(./batch_generate_dark_ads_6.sh:*)",
+      "Bash(./generate_3_light_simple.sh:*)",
+      "Bash(./generate_3_dark_simple.sh:*)",
+      "Bash(venv/bin/python3:*)",
+      "Bash(bash generate_20_ads.sh:*)",
+      "Read(//Users/qiangjohn/**)",
+      "Bash(bash ./batch_generate_standard_ads.sh:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

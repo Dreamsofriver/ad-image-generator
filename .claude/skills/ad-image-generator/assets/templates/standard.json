@@ -1,0 +1,23 @@
+{
+  "name": "standard",
+  "description": "标准广告模板",
+  "layout": {
+    "header": {"height": 200, "elements": ["logo", "title"]},
+    "main": {"height": 1000, "elements": ["image", "description"]},
+    "cta": {"height": 300, "elements": ["button", "price"]},
+    "footer": {"height": 420, "elements": ["brand", "disclaimer"]}
+  },
+  "styles": {
+    "font_family": "Arial, sans-serif",
+    "primary_color": "#4A90E2",
+    "secondary_color": "#F5A623",
+    "background_color": "#FFFFFF",
+    "text_color": "#333333"
+  },
+  "guidelines": [
+    "保持简洁的视觉层次",
+    "使用明确的行动号召",
+    "确保文字清晰可读",
+    "保持品牌一致性"
+  ]
+}
