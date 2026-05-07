@@ -27,7 +27,8 @@
       "Bash(git cat-file *)",
       "Bash(awk 'BEGIN{sum=0} {sum+=$2} END{printf \"Total: %.1f MB\\\\n\", sum/1048576}')",
       "Bash(git config *)",
-      "Bash(git pull *)"
+      "Bash(git pull *)",
+      "Bash(git checkout *)"
     ],
     "deny": [],
     "ask": []
